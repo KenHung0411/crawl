@@ -27,7 +27,7 @@ import datetime
         print('connect to smtp sccuessfully')
         try:
             user = 'yoyoman0411@gmail.com'  # smtp login connection
-            password = '19x79411x90'
+            password = 'my_password'
             smtpserver.login(user, password)
             print('login sccuessfully')
             try:
