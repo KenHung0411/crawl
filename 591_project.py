@@ -69,8 +69,8 @@ def send_mail_through_python(url_list,sent_to):
         smtpserver.ehlo()
         print('connect to smtp sccuessfully')
         try:
-            user = 'yoyoman0411@gmail.com'  # smtp login connection
-            password = '19x79411x90'
+            user = ''  # smtp login connection
+            password = ''
             smtpserver.login(user, password)
             print('login sccuessfully')
             try:
